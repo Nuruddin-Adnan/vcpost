@@ -1,0 +1,28 @@
+@use './../abstracts/variables';
+
+.blue-btn {
+    background: variables.$color-blue;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+
+    &:hover {
+        color: #fff;
+        background: rgba(variables.$color-blue, 0.8);
+    }
+}
+
+.action-btn {
+    background: none;
+    border: 2px solid #888888;
+    width: 140px;
+    margin: 0 5px;
+    padding: 5px;
+    transition: all 0.2s;
+
+    &:hover {
+        color: #fff;
+        background: rgba(variables.$color-blue, 0.8);
+    }
+}

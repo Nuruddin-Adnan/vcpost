@@ -1,0 +1,41 @@
+.section-title {
+  font-family: "helvetica-bold";
+  font-size: 20px;
+  padding: 15px 0;
+  color: #333333;
+}
+
+.heading-small {
+  font-size: 17px;
+  font-family: "helvetica-bold";
+  color: #000000;
+}
+
+.heading-medium {
+  font-size: 26px;
+  line-height: 28px;
+  font-family: "helvetica-bold";
+  color: #000000;
+}
+
+.writter {
+  font-family: "helvetica-bold";
+  font-size: 15px;
+  color: #333333;
+
+  span {
+    font-family: "helvetica-regular";
+    font-size: 14px;
+  }
+}
+
+.date {
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.n-text {
+  font-family: "helvetica-regular";
+  font-size: 14px;
+  line-height: 16px;
+}

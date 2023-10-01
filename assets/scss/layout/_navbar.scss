@@ -1,0 +1,96 @@
+.top-navigation {
+    background: url(../images/h-bg.png) no-repeat center center/cover;
+    background: #f3f6f8;
+    padding: 12px 0;
+
+    @media (max-width:767px) {
+        padding: 6px 0;
+    }
+
+    .date-link {
+        p {
+            color: #444444;
+            font-size: 13px;
+        }
+
+        a {
+            color: #444444;
+            font-size: 13px;
+            margin: 0 10px;
+            transition: all 0.2s;
+
+            @media (max-width:767px) {
+                margin: 0 5px;
+            }
+
+            &:hover {
+                color: #132d74;
+            }
+        }
+    }
+}
+
+.bottom-navigation {
+    @media(max-width:991px) {
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            height: 0px;
+            width: 10px;
+        }
+    }
+
+    .logo-wrap {
+        padding: 25px 0;
+
+        @media (max-width:767px) {
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+
+            img {
+                width: 600px;
+
+                @media (max-width:767px) {
+                    width: 280px;
+                }
+            }
+
+        }
+    }
+
+
+    .link-wrapper {
+        @media(max-width:991px) {
+            width: 800px;
+        }
+    }
+
+    .nav-link {
+        font-family: "helvetica-bold";
+        text-transform: uppercase;
+        display: inline-block;
+        color: #010133;
+        margin: 0 25px;
+
+
+        &.active {
+            color: #082585;
+        }
+
+        &:hover {
+            color: #274299;
+        }
+
+        @media(max-width:1199px) {
+            margin: 0 20px;
+        }
+    }
+
+    .horizon-nav {
+        border-top: 1px solid #ededed;
+        border-bottom: 1px solid #ededed;
+        padding: 15px 0;
+    }
+}

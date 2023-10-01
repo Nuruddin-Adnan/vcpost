@@ -1,0 +1,184 @@
+.card-big {
+    padding-bottom: 20px;
+
+    .header {
+        color: #000000;
+        font-family: "helvetica-bold";
+        font-size: 30px;
+        line-height: 33px;
+        padding-bottom: 5px;
+    }
+
+    .paragraph {
+        color: #333333;
+        font-size: 14px;
+        font-family: "helvetica-regular";
+        padding-bottom: 5px;
+    }
+
+    ul {
+        li {
+            list-style: disc;
+            font-family: "helvetica-bold";
+            font-size: 14px;
+        }
+    }
+}
+
+.card-lg {
+    .header {
+        color: #000000;
+        font-family: "helvetica-bold";
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .paragraph {
+        font-family: "helvetica-regular";
+        color: #333333;
+        font-size: 14px;
+    }
+
+    ul {
+        li {
+            list-style: disc;
+            font-family: "helvetica-regular";
+            font-size: 14px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.news-card-lt {
+    display: grid;
+    padding: 16px 0;
+    border-bottom: 2px solid #f4f4f4;
+
+    @media(min-width: 768px) {
+        gap: 25px;
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .header {
+        line-height: 25px;
+        padding: 15px 0 20px;
+    }
+}
+
+.card-medium {
+    padding-bottom: 25px;
+
+    .header {
+        color: #000000;
+        font-family: "helvetica-bold";
+        font-size: 19px;
+        padding: 10px 0;
+    }
+
+    .paragraph {
+        font-family: "helvetica-regular";
+        color: #333333;
+        font-size: 14px;
+    }
+
+    ul {
+        li {
+            list-style: disc;
+            font-family: "helvetica-regular";
+            font-size: 14px;
+        }
+    }
+}
+
+.small-heading-card {
+    border-top: 1px solid #f0f0f0;
+    padding: 15px 5px;
+
+    .heading {
+        font-size: 17px;
+        line-height: 18.5px;
+        font-family: "helvetica-bold";
+        color: #000000;
+    }
+}
+
+.numbered-card {
+    padding-bottom: 30px;
+
+    .number {
+        font-size: 25px;
+        vertical-align: middle;
+        font-family: "helvetica-regular";
+        align-self: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .para {
+        font-family: "helvetica-bold";
+        font-size: 15px;
+        line-height: 16.5px;
+        color: #000000;
+
+        &.line-clamp-3 {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+    }
+}
+
+.regions-card {
+    .big-header {
+        font-family: "helvetica-bold";
+        font-size: 26px;
+        line-height: 28.5px;
+        color: #000000;
+    }
+
+    .mid-header {
+        font-family: "helvetica-bold";
+        font-size: 19px;
+        line-height: 20.5px;
+        color: #000000;
+    }
+
+    .small-header {
+        font-family: "helvetica-bold";
+        font-size: 17px;
+        line-height: 18.5px;
+        color: #000000;
+    }
+
+    .para {
+        font-family: "helvetica-regular";
+        font-size: 14px;
+        line-height: 15.5px;
+        color: #000000;
+    }
+
+    .image {
+        position: relative;
+
+        span {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 3px 5px;
+            background: #000;
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+}
+
+.n-card {
+    .para {
+        font-size: 14px;
+    }
+}
